@@ -5,5 +5,5 @@ function handleClick()
 	para.innerText=""
 	let h1=document.createElement("h1")
 	h1.innerText="Entered Metaverse"
-	document.body.prepend(h1)
+	para.appendChild(h1)
 }
